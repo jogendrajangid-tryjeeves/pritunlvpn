@@ -16,9 +16,9 @@ do so through the `PRITUNL_MONGODB_URI` env var like this:
 
 #Build docker image
 
+```sh
 docker build -t pritunl .
 
-```sh
 docker run \
     -d \
     --privileged \
