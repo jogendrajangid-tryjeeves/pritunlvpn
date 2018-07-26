@@ -23,7 +23,7 @@ docker run \
     -p 1194:1194/tcp \
     -p 80:80/tcp \
     -p 443:443/tcp \
-    jippi/pritunl
+    pritunl
 ```
 
 Then you can login to your pritunl web ui at https://docker-host-address
@@ -48,7 +48,7 @@ docker run \
     -p 1194:1194/tcp \
     -p 80:80/tcp \
     -p 443:443/tcp \
-    jippi/pritunl
+    pritunl
 ```
 
 Then you're on your own, but take a look at http://pritunl.com or https://github.com/pritunl/pritunl
