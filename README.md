@@ -15,6 +15,7 @@ You need to host mongodb somewhere you'd like to use for this rather than starti
 do so through the `PRITUNL_MONGODB_URI` env var like this:
 
 #Build docker image
+
 docker build -t pritunl .
 
 ```sh
