@@ -18,6 +18,7 @@ RUN echo 'deb http://repo.pritunl.com/stable/apt xenial main' > /etc/apt/sources
     && apt-get -y -q autoclean \
     && apt-get -y -q autoremove \
     && rm -rf /tmp/*
+
 #Prevent connections issues
 RUN sh -c 'echo "* hard nofile 64000" >> /etc/security/limits.conf'
 RUN sh -c 'echo "* soft nofile 64000" >> /etc/security/limits.conf'
